@@ -94,6 +94,60 @@
     "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
     "version": "v5.0.0"
   },
+  "aff-promise": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "catenable-lists",
+      "console",
+      "const",
+      "contravariant",
+      "control",
+      "datetime",
+      "distributive",
+      "eff",
+      "either",
+      "enums",
+      "exceptions",
+      "exists",
+      "foldable-traversable",
+      "foreign",
+      "free",
+      "functions",
+      "functors",
+      "generics",
+      "globals",
+      "identity",
+      "integers",
+      "invariant",
+      "js-timers",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "parallel",
+      "partial",
+      "prelude",
+      "proxy",
+      "quickcheck",
+      "random",
+      "refs",
+      "st",
+      "strings",
+      "tailrec",
+      "test-unit",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
+    "version": "v0.5.0"
+  },
   "argonaut": {
     "dependencies": [
       "argonaut-codecs",
@@ -954,7 +1008,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "foreign-lens": {
     "dependencies": [

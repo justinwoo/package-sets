@@ -666,6 +666,21 @@
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v3.0.0"
   },
+  "io": {
+    "dependencies": [
+      "aff",
+      "control",
+      "eff",
+      "exceptions",
+      "monoid",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "transformers"
+    ],
+    "repo": "https://github.com/slamdata/purescript-io.git",
+    "version": "v4.1.0"
+  },
   "jquery": {
     "dependencies": [
       "dom"

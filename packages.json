@@ -296,6 +296,16 @@
     "repo": "https://github.com/slamdata/purescript-css.git",
     "version": "v3.3.0"
   },
+  "cycle-run": {
+    "dependencies": [
+      "console",
+      "xstream",
+      "typelevel-prelude",
+      "record"
+    ],
+    "version": "v1.0.0",
+    "repo": "git://github.com/justinwoo/purescript-cycle-run.git"
+  },
   "data-default": {
     "dependencies": [],
     "repo": "https://github.com/nkly/purescript-data-default.git",
@@ -2012,16 +2022,13 @@
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.0.0"
   },
-  "yargs": {
+  "xstream": {
     "dependencies": [
-      "unsafe-coerce",
-      "foreign",
-      "either",
-      "console",
-      "exceptions"
+      "aff-promise",
+      "js-timers"
     ],
-    "repo": "https://github.com/paf31/purescript-yargs.git",
-    "version": "v3.1.0"
+    "repo": "git://github.com/justinwoo/purescript-xstream.git",
+    "version": "v1.0.0"
   },
   "websocket-simple": {
     "dependencies": [

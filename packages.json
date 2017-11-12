@@ -874,6 +874,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-timers.git",
     "version": "v3.0.0"
   },
+  "kancho": {
+    "dependencies": [
+      "typelevel-prelude",
+      "newtype",
+      "strings",
+      "foreign"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-kancho.git",
+    "version": "v0.1.0"
+  },
   "lazy": {
     "dependencies": [
       "monoid"

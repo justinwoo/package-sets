@@ -1206,6 +1206,21 @@
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
     "version": "v5.0.0"
   },
+  "ohyes": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "typelevel-prelude",
+      "record",
+      "generics-rep",
+      "foreign",
+      "lists",
+      "nullable",
+      "variant"
+    ],
+    "version": "v1.1.0",
+    "repo": "git://github.com/justinwoo/purescript-ohyes.git"
+  },
   "options": {
     "dependencies": [
       "foreign",

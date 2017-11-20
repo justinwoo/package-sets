@@ -1483,6 +1483,15 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.5"
   },
+  "record-extra": {
+    "dependencies": [
+      "typelevel-prelude",
+      "record",
+      "lists"
+    ],
+    "repo": "https://github.com/purescript/purescript-record.git",
+    "version": "v0.2.5"
+  },
   "reflection": {
     "dependencies": [
       "unsafe-coerce",

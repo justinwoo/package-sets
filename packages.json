@@ -192,6 +192,20 @@
     "repo": "https://github.com/rightfold/purescript-bytestrings.git",
     "version": "v6.0.0"
   },
+  "bismuth": {
+    "dependencies": [
+      "typelevel-prelude",
+      "nullable",
+      "variant",
+      "foreign",
+      "generics-rep",
+      "lists",
+      "maps",
+      "prelude"
+    ],
+    "version": "v0.1.0",
+    "repo": "git://github.com/justinwoo/purescript-bismuth.git"
+  },
   "canvas": {
     "dependencies": [
       "eff",

@@ -203,7 +203,7 @@
       "maps",
       "prelude"
     ],
-    "version": "v0.1.0",
+    "version": "v0.3.1",
     "repo": "git://github.com/justinwoo/purescript-bismuth.git"
   },
   "canvas": {

@@ -1772,7 +1772,8 @@
       "foreign-generic",
       "typelevel-prelude",
       "record",
-      "nullable"
+      "nullable",
+      "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v1.0.0"

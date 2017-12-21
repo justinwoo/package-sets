@@ -172,6 +172,20 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v3.0.0"
   },
+  "bismuth": {
+    "dependencies": [
+      "typelevel-prelude",
+      "nullable",
+      "variant",
+      "foreign",
+      "generics-rep",
+      "lists",
+      "maps",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-bismuth.git",
+    "version": "v0.3.1"
+  },
   "bytestrings": {
     "dependencies": [
       "arrays",
@@ -191,20 +205,6 @@
     ],
     "repo": "https://github.com/rightfold/purescript-bytestrings.git",
     "version": "v6.0.0"
-  },
-  "bismuth": {
-    "dependencies": [
-      "typelevel-prelude",
-      "nullable",
-      "variant",
-      "foreign",
-      "generics-rep",
-      "lists",
-      "maps",
-      "prelude"
-    ],
-    "version": "v0.3.1",
-    "repo": "https://github.com/justinwoo/purescript-bismuth.git"
   },
   "canvas": {
     "dependencies": [
@@ -230,12 +230,12 @@
   },
   "choco-pie": {
     "dependencies": [
-      "prelude",
       "behaviors",
-      "typelevel-prelude",
-      "record"
+      "prelude",
+      "record",
+      "typelevel-prelude"
     ],
-    "repo": "https://github.com/justinwoo/purescript-chocopie.git",
+    "repo": "git://github.com/justinwoo/purescript-chocopie.git",
     "version": "v1.0.0"
   },
   "codec": {
@@ -327,8 +327,8 @@
       "typelevel-prelude",
       "record"
     ],
-    "version": "v1.0.0",
-    "repo": "https://github.com/justinwoo/purescript-cycle-run.git"
+    "repo": "https://github.com/justinwoo/purescript-cycle-run.git",
+    "version": "v1.0.0"
   },
   "data-default": {
     "dependencies": [],
@@ -912,21 +912,6 @@
     ],
     "repo": "https://github.com/jystic/purescript-jack.git",
     "version": "v2.0.0"
-  },
-  "io": {
-    "dependencies": [
-      "aff",
-      "control",
-      "eff",
-      "exceptions",
-      "monoid",
-      "newtype",
-      "prelude",
-      "tailrec",
-      "transformers"
-    ],
-    "repo": "https://github.com/slamdata/purescript-io.git",
-    "version": "v5.0.0"
   },
   "jquery": {
     "dependencies": [
@@ -1989,15 +1974,6 @@
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v2.1.0"
   },
-  "typelevel-prelude": {
-    "dependencies": [
-      "proxy",
-      "symbols",
-      "type-equality"
-    ],
-    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v2.5.0"
-  },
   "typelevel": {
     "dependencies": [
       "partial",
@@ -2007,6 +1983,15 @@
     ],
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v3.0.0"
+  },
+  "typelevel-prelude": {
+    "dependencies": [
+      "proxy",
+      "symbols",
+      "type-equality"
+    ],
+    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
+    "version": "v2.5.0"
   },
   "unfoldable": {
     "dependencies": [
@@ -2085,14 +2070,6 @@
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.0.0"
   },
-  "xstream": {
-    "dependencies": [
-      "aff-promise",
-      "js-timers"
-    ],
-    "repo": "https://github.com/justinwoo/purescript-xstream.git",
-    "version": "v1.0.0"
-  },
   "websocket-simple": {
     "dependencies": [
       "dom",
@@ -2103,6 +2080,14 @@
     ],
     "repo": "https://github.com/zudov/purescript-websocket-simple.git",
     "version": "v2.0.0"
+  },
+  "xstream": {
+    "dependencies": [
+      "aff-promise",
+      "js-timers"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-xstream.git",
+    "version": "v1.0.0"
   },
   "yargs": {
     "dependencies": [

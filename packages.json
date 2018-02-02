@@ -156,13 +156,13 @@
   "behaviors": {
     "dependencies": [
       "prelude",
-      "eff",
+      "effect",
       "sets",
       "filterable",
       "nullable"
     ],
-    "repo": "https://github.com/paf31/purescript-behaviors.git",
-    "version": "v6.2.0"
+    "repo": "https://github.com/justinwoo/purescript-behaviors.git",
+    "version": "effect"
   },
   "bifunctors": {
     "dependencies": [
@@ -222,7 +222,7 @@
       "record"
     ],
     "repo": "git://github.com/justinwoo/purescript-chocopie.git",
-    "version": "v1.0.0"
+    "version": "effect"
   },
   "codec": {
     "dependencies": [
@@ -430,6 +430,13 @@
     ],
     "repo": "https://github.com/purescript/purescript-eff.git",
     "version": "v3.1.0"
+  },
+  "effect": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-effect.git",
+    "version": "v0.1.0"
   },
   "either": {
     "dependencies": [

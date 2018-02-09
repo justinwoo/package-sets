@@ -1583,6 +1583,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v4.4.0"
   },
+  "react-basic": {
+    "dependencies": [
+      "eff",
+      "functions",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic.git",
+    "version": "v0.2.0"
+  },
   "react-dom": {
     "dependencies": [
       "dom",

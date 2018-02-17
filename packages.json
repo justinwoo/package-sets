@@ -2026,6 +2026,22 @@
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.0.0"
   },
+  "tortellini": {
+    "dependencies": [
+      "integers",
+      "lists",
+      "maps",
+      "numbers",
+      "prelude",
+      "record",
+      "string-parsers",
+      "strings",
+      "transformers",
+      "typelevel-prelude"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-tortellini.git",
+    "version": "v0.1.0"
+  },
   "transformers": {
     "dependencies": [
       "arrays",

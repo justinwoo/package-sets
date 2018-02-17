@@ -725,6 +725,16 @@
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
     "version": "v5.3.0"
   },
+  "gomtang-basic": {
+    "dependencies": [
+      "record",
+      "dom",
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-gomtang-basic.git",
+    "version": "v0.0.1"
+  },
   "globals": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",

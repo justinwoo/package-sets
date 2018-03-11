@@ -223,6 +223,16 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v4.0.0"
   },
+  "chanpon": {
+    "dependencies": [
+      "eff",
+      "node-sqlite3",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-chanpon.git",
+    "version": "v0.2.0"
+  },
   "choco-pie": {
     "dependencies": [
       "behaviors",
@@ -530,6 +540,15 @@
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.4"
   },
+  "ffi-props": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-ffi-props.git",
+    "version": "v0.1.0"
+  },
   "filterable": {
     "dependencies": [
       "foldable-traversable",
@@ -750,6 +769,16 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",
     "version": "v3.0.0"
+  },
+  "gomtang-basic": {
+    "dependencies": [
+      "record",
+      "dom",
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-gomtang-basic.git",
+    "version": "v0.0.1"
   },
   "graphs": {
     "dependencies": [
@@ -1100,6 +1129,15 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v4.0.0"
+  },
+  "makkori": {
+    "dependencies": [
+      "prelude",
+      "functions",
+      "node-http"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-makkori.git",
+    "version": "pre-0.1.0-2"
   },
   "maps": {
     "dependencies": [
@@ -1875,9 +1913,9 @@
   },
   "simple-json": {
     "dependencies": [
-      "prelude",
       "foreign-generic",
-      "typelevel-prelude",
+      "nullable",
+      "prelude",
       "record",
       "nullable",
       "variant"
@@ -2069,6 +2107,35 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.1.0"
+  },
+  "toppokki": {
+    "dependencies": [
+      "aff-promise",
+      "eff",
+      "functions",
+      "node-buffer",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-toppokki.git",
+    "version": "v0.2.0-pre"
+  },
+  "tortellini": {
+    "dependencies": [
+      "integers",
+      "lists",
+      "maps",
+      "numbers",
+      "prelude",
+      "record",
+      "string-parsers",
+      "strings",
+      "transformers",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-tortellini.git",
+    "version": "v0.1.0"
   },
   "transformers": {
     "dependencies": [

@@ -528,6 +528,15 @@
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.2"
   },
+  "ffi-props": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "record"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-ffi-props.git",
+    "version": "v0.1.0"
+  },
   "filterable": {
     "dependencies": [
       "foldable-traversable",
@@ -746,6 +755,16 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",
     "version": "v3.0.0"
+  },
+  "gomtang-basic": {
+    "dependencies": [
+      "record",
+      "dom",
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-gomtang-basic.git",
+    "version": "v0.0.1"
   },
   "graphs": {
     "dependencies": [
@@ -1037,6 +1056,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v4.0.0"
   },
+  "makkori": {
+    "dependencies": [
+      "prelude",
+      "functions",
+      "node-http"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-makkori.git",
+    "version": "pre-0.1.0-2"
+  },
   "maps": {
     "dependencies": [
       "arrays",
@@ -1119,12 +1147,10 @@
   "milkis": {
     "dependencies": [
       "aff-promise",
-      "http-methods",
-      "node-http",
       "prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "minibench": {
     "dependencies": [
@@ -1810,9 +1836,9 @@
   },
   "simple-json": {
     "dependencies": [
-      "prelude",
       "foreign-generic",
-      "typelevel-prelude",
+      "nullable",
+      "prelude",
       "record",
       "nullable",
       "variant"
@@ -2016,6 +2042,22 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.0.0"
+  },
+  "tortellini": {
+    "dependencies": [
+      "integers",
+      "lists",
+      "maps",
+      "numbers",
+      "prelude",
+      "record",
+      "string-parsers",
+      "strings",
+      "transformers",
+      "typelevel-prelude"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-tortellini.git",
+    "version": "v0.1.0"
   },
   "transformers": {
     "dependencies": [

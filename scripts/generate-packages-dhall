@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+contents=""
+
+for src in src/groups/*.dhall
+do
+  contents="$contents // ./groups/$(basename "$src")"
+done
+
+>src/packages.dhall echo "let packages = "
+>>src/packages.dhall echo "${contents:3}"
+>>src/packages.dhall echo " in packages"

@@ -1,12 +1,12 @@
 all: format generate
 
 format:
-	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
-	@echo formatted dhall files
+	@find src/ -iname "*sonnet" -exec jsonnetfmt -i {} \;
+	@echo formatted jsonnet files
 
 generate: SHELL:=/usr/bin/env bash
 generate:
-	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
+	@jsonnet src/packages.jsonnet -o packages.json
 	@psc-package format
 	@echo generated to packages.json
 
@@ -18,4 +18,4 @@ test-psc-package:
 ci: generate test-psc-package
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
-	cd src && spago verify-set
+	cd src && psc-package verify
